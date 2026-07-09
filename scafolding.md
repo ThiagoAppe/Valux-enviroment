@@ -215,6 +215,11 @@ SMTP_PASSWORD=your_password
 # LOGGING
 # =========================
 LOG_LEVEL=info
+
+# =========================
+# MEDIA URL
+# =========================
+MEDIA_BASE_URL=http://localhost:8000/static/
 ```
 
 Modificar los valores según la configuración local.

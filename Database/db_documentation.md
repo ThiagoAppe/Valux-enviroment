@@ -197,7 +197,7 @@ Stores product images.
 | ---------- | ----------------- |
 | id         | Primary key       |
 | product_id | Product reference |
-| url        | Image URL         |
+| filename   | Image Filename    |
 | sort_order | Display order     |
 
 A product may contain multiple images.
