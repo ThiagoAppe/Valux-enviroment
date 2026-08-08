@@ -50,12 +50,13 @@ Users
 
 Stores the product category hierarchy.
 
-| Column    | Description             |
-| --------- | ----------------------- |
-| id        | Primary key             |
-| name      | Category name           |
-| slug      | SEO-friendly identifier |
-| parent_id | Parent category         |
+| Column     | Description             |
+| ---------- | ----------------------- |
+| id         | Primary key             |
+| name       | Category name           |
+| slug       | SEO-friendly identifier |
+| image_path | Image ubication         |
+| parent_id  | Parent category         |
 
 Features:
 
@@ -197,7 +198,7 @@ Stores product images.
 | ---------- | ----------------- |
 | id         | Primary key       |
 | product_id | Product reference |
-| filename   | Image Filename    |
+| path       | Image ubication   |
 | sort_order | Display order     |
 
 A product may contain multiple images.
