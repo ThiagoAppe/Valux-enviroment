@@ -76,6 +76,7 @@ CREATE TABLE "users" (
   "email" varchar UNIQUE NOT NULL,
   "password_hash" varchar NOT NULL,
   "role" varchar NOT NULL,
+  "last_token_jti" varchar(36),
   "created_at" timestamp
 );
 

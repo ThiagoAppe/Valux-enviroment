@@ -211,13 +211,14 @@ A product may contain multiple images.
 
 Authentication and authorization records.
 
-| Column        | Description        |
-| ------------- | ------------------ |
-| id            | Primary key        |
-| email         | Login email        |
-| password_hash | Hashed password    |
-| role          | User role          |
-| created_at    | Creation timestamp |
+| Column         | Description                 |
+| -------------- | --------------------------- |
+| id             | Primary key                 |
+| email          | Login email                 |
+| password_hash  | Hashed password             |
+| role           | User role                   |
+| last_token_jti | Active JWT session identifier |
+| created_at     | Creation timestamp          |
 
 Possible roles:
 
